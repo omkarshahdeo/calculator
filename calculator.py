@@ -1,5 +1,3 @@
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
 
 print("1. Add")
 print("2. Subtract")
@@ -8,6 +6,9 @@ print("4. Divide")
 print("5. Exit")
 
 choice = int(input("Enter your choice: "))
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 
 if choice == 1:
     print(num1 + num2)
